@@ -1,5 +1,16 @@
 # Ansible Experiments and POCs
 
+## Installing Ansible and its prerequisites
+
+```
+sudo apt-get install -y --no-install-recommends \
+    python3 \
+    python3-dev \
+    python3-pip
+
+pip install ansible-core==2.12
+```
+
 ## Usage
 
 Make sure that Ansible is installed.
