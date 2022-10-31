@@ -10,5 +10,5 @@
       ansible.builtin.lineinfile:
         path: ./config.txt
         insertafter: '^\[pi4\]$'
-        line: edit=weewoo
+        line: dtoverlay=vc4-fkms-v3d
 
