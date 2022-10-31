@@ -2,7 +2,7 @@
 
 ## Installing Ansible and its prerequisites
 
-```
+```bash
 sudo apt-get install -y --no-install-recommends \
     python3 \
     python3-dev \
