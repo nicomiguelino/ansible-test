@@ -7,7 +7,7 @@
         replace: '#\1'
 
     - name: Change dtoverlay value for DRM VC4 V3D driver.
-      ansible.builtin.lineinfile:
+      lineinfile:
         path: ./config.txt
         insertafter: '^\[pi4\]$'
         line: dtoverlay=vc4-fkms-v3d
