@@ -4,5 +4,5 @@
   tasks:
     - name: Copy a template to a certain destination.
       ansible.builtin.template:
-        src: ./index.html.j2
+        src: ./index_template.html
         dest: ./index.html
