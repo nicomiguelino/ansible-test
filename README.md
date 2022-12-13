@@ -15,6 +15,10 @@ pip install ansible-core==2.12
 
 Make sure that Ansible is installed.
 
+
+Run one of the following commands:
+
 ```bash
 ansible-playbook replace.yml
+ansible-playbook template.yml
 ```
